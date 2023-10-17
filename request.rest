@@ -1,1 +1,35 @@
-GET http://localhost:3000
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/login
+
+###
+
+POST http://localhost:3000/loadMainUser
+Content-Type: application/json
+
+{
+    "name" : "Robert",
+    "password" : "password"
+}
+
+###
+
+POST http://localhost:3000/loadUser
+Content-Type: application/json
+
+{
+    "name" : "Kyle",
+    "password" : "password"
+}
+
+###
+
+POST http://localhost:3000/checkUser
+Content-Type: application/json
+
+{
+    "name" : "Robert",
+    "password" : "password"
+}

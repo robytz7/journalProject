@@ -1,0 +1,14 @@
+So, the information from the users will be stored in the data base.
+The first page will be a page with basic information and the option to log in.
+After the login, if it is succesful we will reach the page that has the journal effect, the memento, the mood of the day etc.
+I would also like to add one brief page for customizing the features the user wants to have acces to. Of course, it can be changed in the setting after if the user decides to.
+
+relationara foloseste postgresql si pt nerelationara mongo
+
+So, we need to have only one instance(user) at a single time so i probably need to use something like a singleton, because in order to acces the "app" i need to log in.
+After log in, i need to be able to acces certain features.
+Before the log in, i should have the option to create an account/user or to log in.
+
+I need to be able to read information from the website in order to test if i can process the information in the later steps.
+
+
