@@ -11,4 +11,4 @@ Before the log in, i should have the option to create an account/user or to log 
 
 I need to be able to read information from the website in order to test if i can process the information in the later steps.
 
-
+Now that we got the handle on getting the information from the site, we need to create the option to either create a new account or log in.
