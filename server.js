@@ -98,6 +98,13 @@ app.get('/users', (req, res) =>{
     res.send('Users in the console')
     console.log(users[3])
 })
+
+app.get('/userInfo', (req, res) =>{
+    userInfo.find().then((result) =>{
+        console.log(result[0].user)
+        res.send(result)
+    })
+})
 //#endregion
 
 //#region testingForUser
